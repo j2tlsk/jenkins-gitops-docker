@@ -14,6 +14,7 @@ COPY . /app
 #CMD ["source", "bin/activate"]
 #CMD ["pip3", "install flask"]
 CMD ["pip", "install --no-cache-dir -r requirements.txt"]
+COPY . .
 
 # Make port 5000 available to the world outside this container
 EXPOSE 5000
