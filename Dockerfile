@@ -19,4 +19,4 @@ CMD ["pip", "install --no-cache-dir -r requirements.txt"]
 EXPOSE 5000
 
 # Run app.py when the container launches
-CMD ["python", "-m", "flask", "app.py"]
+CMD ["python", "-m", "flask", "run", "app.py"]
