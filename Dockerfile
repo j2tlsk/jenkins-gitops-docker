@@ -13,7 +13,7 @@ CMD ["virtualenv", "flask"]
 CMD ["cd", "flask"]
 CMD ["source", "bin/activate"]
 CMD ["pip", "install flask"]
-CMD ["pip", "install --no-cache-dir -r requirements.txt"]
+#CMD ["pip", "install --no-cache-dir -r requirements.txt"]
 
 # Make port 5000 available to the world outside this container
 EXPOSE 5000
