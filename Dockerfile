@@ -12,7 +12,6 @@ COPY . /app
 #CMD ["virtualenv", "flask"]
 #CMD ["cd", "flask"]
 #CMD ["source", "bin/activate"]
-COPY ["requirements.txt", "requirements.txt"]
 #CMD ["pip3", "install flask"]
 CMD ["pip", "install --no-cache-dir -r requirements.txt"]
 
