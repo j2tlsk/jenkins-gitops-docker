@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return ' ArgoCD sure is Cool, but a little patience is needed in the deployment part !!'
+    return 'ArgoCD sure is Cool, but a little patience is needed in the deployment part !!'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
